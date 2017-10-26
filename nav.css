@@ -1,0 +1,249 @@
+
+@media only screen and (min-width: 768px){
+  
+
+
+
+/* main header styles*/ 
+    
+  .second-header {
+    height: 100px;
+    background-color: blue;
+    border-bottom: 2px solid darkgrey;
+    }
+
+.nav {  
+    justify-content: flex-start;
+    max-height: 30px;
+    }
+    
+.nav li a {
+    font-size: 1.5em;  
+    margin-top: 10px;
+   
+}
+ 
+.main-header {
+    height: 11em; 
+    border-bottom: 4px solid #ccc;
+}
+    
+.main-header h1 {
+    font-size: 2em;
+    color: white;
+}
+
+    
+.main-header h4 {
+    font-size: 1em;
+    margin-bottom: 2.5em;
+    color: white;
+
+}
+    
+  
+ 
+   /* main content styles*/ 
+
+   
+.card {
+        display: block;
+        margin: auto;
+        margin-top: 1.5em;
+        margin-bottom: 1em;
+         }
+    
+  
+    
+.testimonials-content .card {
+        width: 650px;   
+    }
+    
+ .about-card {
+     
+        max-width: 600px;
+    }
+    
+.contact-card .card {
+        height: 20em;
+        max-width: 600px;
+    }
+    
+.statement-logo {
+    height: 200px;
+    width: 200px;
+}
+    
+.image1 {
+    width: 55%;
+    height: 35%;
+    display: block;
+    margin: auto;
+    margin-top: 8%;
+    
+}
+    
+    /* Footer -  mini header styles */ 
+    
+   .mini-header {
+    height: 120px;
+    margin: 0; 
+    border-top: 2px solid #ccc;
+    position: relative;
+}
+
+
+
+.mini-header h3 {
+    margin-top: 5px;
+    font-size: 1.5em;
+}
+   
+ #tomatis-logo1, #facebook-logo1{
+    width: 55px; 
+    height: 55px;
+     top: 30%;
+}
+    
+    #tomatis-logo1 {
+        right: 51%;
+    }
+    
+    #facebook-logo1 {
+        right: 41%;
+    }
+    
+ .wrapper {
+        min-height: calc(100vh - 120px);
+    }
+    
+    
+   }
+
+
+@media only screen and (min-width: 1200px) {
+    
+ 
+    
+/* main header styles*/ 
+
+.main-header {
+        height: 100px;
+        
+    }
+    
+.main-header h1{
+     font-size: 20px;
+     color: white;
+     text-align: left;
+     margin-left: .5em;
+    margin-top: 20px;
+    text-shadow: none;
+    }
+    
+    
+.main-header h4 {
+    font-size: 20px;
+    color: white;
+    text-align: right;
+    margin-top: -35px;
+    margin-right: 2em;
+     text-shadow: none;
+}
+    
+    .nav li a {
+        font-size: 20px;
+        
+    }
+
+    .tag1 {
+    border-right: 2px solid darkgrey;
+   
+}
+    
+    .second-header {
+    height: 50px;
+    background-color: blue;
+    border-bottom: 2px solid darkgrey;
+    }
+  /* main content styles*/ 
+
+
+    .testimonials-content .card {
+        width: 900px;
+    }
+    
+     .about-card {
+         max-width: 1000px;
+    }
+    
+   .contact-card .card {
+       height: 20em;
+       max-width: 900px;
+    }
+    
+    .statement-logo {
+    height: 200px;
+    width: 200px;
+}
+    
+    /*image styles*/ 
+    
+    .small-image {
+        display: inline-block;
+        float: right;
+        height: 700px;
+        width: 30%;
+        border: none;
+        border-radius: 0;
+        margin-top: 40px;
+        margin-bottom: 40px;
+     
+    }
+    
+    .large-image {
+    display: inline-block;
+    height: 700px;
+    width: 70%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+  
+        
+}
+
+/* Footer mini - header styles*/ 
+    
+    .mini-header{
+        height: 60px;
+        margin-top: -7px;
+
+    } 
+    
+    .mini-header h3{
+        font-size: 20px;
+        text-align: left;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    
+ #tomatis-logo1, #facebook-logo1{
+    top: 10%;
+    width: 40px; 
+    height: 40px;
+}
+
+#tomatis-logo1 {
+        right: 8%;
+    }
+    
+ #facebook-logo1 {
+        right: 4%;
+    }
+ 
+    .wrapper {
+        min-height: calc(100vh - 50px);
+    }
+    
+  
+}
